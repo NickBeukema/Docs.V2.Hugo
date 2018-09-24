@@ -9,7 +9,7 @@ icon: "/images/record-metrics.png"
 
 App Metrics provides an `IMetrics` used to record application metrics. An instance of `IMetrics` can be built using the `MetricsBuilder` and is intended to be used as single instance.
 
-Each metric being measured is defined via one the available [metric types]({{< ref "getting-started/metric-types/_index.md" >}}) and only needs to be defined once using a static class.
+Each metric being measured is defined via one of the available [metric types]({{< ref "getting-started/metric-types/_index.md" >}}) and only needs to be defined once using a static class.
 
 <i class="fa fa-hand-o-right"></i> The following is an example of how you could define your custom metrics:
 
